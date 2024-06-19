@@ -1,0 +1,332 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333; 
+    line-height: 1.6;
+}
+
+
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0e0d0d;
+  color: #fff;
+  z-index: 1000; 
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('image3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #080808;
+  padding: 14rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff6600;
+}
+
+
+
+/* Style the "Latest Blogs" section */
+#blogs {
+  background-image: url('hd.jpg');
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.blog-posts {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-posts h2{
+  font-size: 2rem;
+}
+
+.blog-post {
+  margin-bottom: 2rem;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.blog-post h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.blog-date {
+  font-weight: bold;
+}
+
+.blog-author {
+  font-style: italic;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #ff6600;
+}
+
+
+
+/* Style popular courses section */
+#courses {
+  background-color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+#courses h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center; /* Center-align the text within the h2 element */
+  margin-bottom: 2rem;
+}
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.course h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.course p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.course a.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.course a.btn:hover {
+  background-color: #ff6600;
+}
+
+
+
+
+/* Style key features section */
+#features {
+  background-color: #fffcfc;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.features ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features li {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features i {
+  font-size: 2rem;
+  color: #ff9900;
+  margin-bottom: 1rem;
+}
+
+.features h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.features p {
+  color: #666;
+}
+
+
+
+/* Contact Form Styles */
+.contact-form {
+  text-align: center;
+  background-color: #fff;
+  padding: 4rem 0;
+}
+
+.contact-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #ff6600;
+}
+
+/* Blogs Section Styles (customize as needed) */
+
+/* Footer Styles */
+footer {
+  background-color: #050505;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+      padding: 2rem 0;
+  }
+
+  .hero h1 {
+      font-size: 2rem;
+  }
+
+  .hero p {
+      font-size: 1rem;
+  }
+
+  .about-content,
+  .services,
+  .contact-form {
+      padding: 2rem 0;
+  }
+}
